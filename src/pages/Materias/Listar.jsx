@@ -11,7 +11,7 @@ const ListMateria = () => {
 
     const listMat = async () => {
       try {
-        const response = await axios.get(`h${import.meta.env.VITE_API_URL}/api/Materia/listarMat`)
+        const response = await axios.get(`${import.meta.env.VITE_API_URL}/api/Materia/listarMat`)
         setMaterias(response.data.materias)
       } catch (error) {
         console.error("Error al cargar materias:", error)
