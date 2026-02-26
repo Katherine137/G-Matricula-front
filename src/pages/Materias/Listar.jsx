@@ -2,7 +2,7 @@ import { MdDeleteForever, MdPublishedWithChanges } from "react-icons/md";
 import { useEffect, useState } from "react";
 import { useNavigate, Link } from "react-router-dom";
 import axios from "axios";
-import "../../css/listar.css"
+import "../../css/Listar.css"
 
 const ListMateria = () => {
     const navigate = useNavigate()
