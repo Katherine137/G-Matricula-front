@@ -1,0 +1,40 @@
+.estudiante-header {
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.card-grid {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.estudiante-card {
+    text-decoration: none;
+    width: 250px;
+    padding: 30px;
+    border-radius: 12px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.66);
+    border: 2px solid transparent;
+}
+
+.estudiante-card:hover {
+    transform: scale(1.05);
+}
+
+.card-pink {
+    border-color: #f36ee8;
+}
+
+.card-purple {
+    border-color: #7a42fd;
+}
+
+.icon {
+  font-size: 45px;
+  margin-bottom: 15px;
+}
+
